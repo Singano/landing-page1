@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 48em) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 48em;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10.3125rem;
+        padding-right: 10.3125rem;
+
+    }
+
+}*/
+
+/*Mobile media queries */
+.nav {
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+
+}
+
+/* Tablet media queries */
+@media only screen and (min-width: 48em) {
+    .nav {
+        padding: 1.5rem 2.5rem; 
+      
+    }
+}
+
+/* Desktop media queries */
+
+@media only screen and (min-width: 90em) {
+    .nav {
+        padding: 1.5rem 10.3125rem;
+        max-width: 90rem; 
+        margin: auto; 
+        
+    }
+    
+}
+
+.logo {
+    width: 5.5625rem;
+    
+}
+
+@media only screen and (min-width: 90em) {
+    .nav {
+        font-size: 1.125em;
+        padding: 0.875rem 2rem;
+        margin-top: 2rem;
+        
+        
+    }
+    
+}
+
+.btn {
+    
+    border: none;
+    padding: 0.625rem 1.5rem;
+    border-radius: 1.75rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    
+}
+
+
+@media only screen and (min-width: 90em) {
+    .logo {
+        width: 6.9375rem;
+    }
+    
+    
+}
+
+
+.btn__dark {
+    background-color: #13183F;
+    color: #ffffff;
+    
+}
+
+
+/* hero-section btn */
+.hero-btn {
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.75rem;
+    
+    font-family: Plus Jakarta Sans;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.625rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #FF6F48;
+    
+    
+}
+
+.btn-started {
+    width: 6.5rem;
+    height: 1.75rem;
+    left: 1.75rem;
+    top: 13.9375rem;
+    margin-top: 1rem;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: #F74780;
+}
+
+
+@media only screen and (min-width: 48em) {
+    .hero-btn {
+        padding-top: 0.9375rem;
+        padding-right: 2.3125rem;
+        padding-bottom: 0.9375rem;
+        padding-left: 2.375rem;
+        margin-left: 2.4375rem; 
+
+         
+    }
+    
+}
+@media only screen and (min-width: 90em) {
+    .hero-btn {
+        font-size: 1.125em;
+
+         
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+    .hero-btn {
+        margin-right: 12.3125em;
+        padding-top: 1.3125rem;
+        padding-bottom: 0.875rem;
+        padding-left: 2rem;
+        padding-right: 1.9375rem;
+        margin-left: 2rem; 
+        line-height: 1.75rem;
+
+         
+    }
+    
+}
+
+
+.btn-last {
+    width: 6.5rem;
+    height: 1.75rem;
+    left: 1.75rem;
+    top: 13.9375rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: #F74780;
+
+}
+
+
+/* Tablet logo*/
+
+
+.btn {
+    padding: 0.875rem 2rem; 
+    font-size: 1.125rem;
+}
+
+
+/* footer logo mobile */
+.light-logo {
+    width: 5.5625rem;
+    
+}    
+
+@media only screen and (min-width: 48em) {
+    .light-logo {
+        width: 5.5625rem;
+        height: 2.1875rem;
+        left: 0rem;
+        top: 0.4375rem;
+        
+        
+        border-radius: nullpx;
+
+
+
+        font-family: Plus Jakarta Sans;
+        font-size: 1.75em;
+        font-weight: 800;
+        line-height: 2.1875rem;
+        letter-spacing: 0rem;
+        text-align: left;
+        color: #FFFFFF;
+         
+    }
+    
+}
+
+/* ainda por implementar desktop log
+*/
+@media only screen and (min-width: 90em) {
+    .light-logo {
+        width: 5.5625rem;
+        height: 2.1875rem;
+        left: 0rem;
+        top: 0.4375rem;
+        
+        
+        border-radius: nullpx;
+
+
+
+        font-family: Plus Jakarta Sans;
+        font-size: 1.75em;
+        font-weight: 800;
+        line-height: 2.1875rem;
+        letter-spacing: 0rem;
+        text-align: left;
+        color: #FFFFFF;
+         
+    }
+    
+}
+
+
+.btn-footer {
+    border: none;
+    padding: 1.5rem 0.625rem;
+    border-radius: 1.75rem;
+    
+    font-family: "Plus Jakarta Sans, sans-serif";
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ffffff;
+    
+    
+}    
+
+.btn__light {
+    width: 8.75rem;
+    height: 3rem;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    
+    
+}    
+
+@media only screen and (min-width: 48em) {
+    .btn-footer {
+        border: none;
+        width: 8.75rem;
+        /*
+        height: 3rem;
+        left: 34.3125rem;
+        top: 0rem;
+        */
+        margin: 2.4375rem 2.25rem;
+        padding: 0.625rem 1.5rem;
+        border-radius: nullpx;
+
+
+        
+    }
+    
+    .btn__light {
+        /*
+        width: 5.75rem;
+        height: 1.75rem;
+        left: 1.5rem;
+        top: 0.5625rem;*/
+       
+        border-radius: nullpx;
+        
+        
+        font-family: Plus Jakarta Sans;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: 0rem;
+        text-align: left;
+        color: #FFFFFF;
+        
+    }
+    
+}
+
+
+
